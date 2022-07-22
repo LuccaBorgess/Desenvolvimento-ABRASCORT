@@ -1,0 +1,28 @@
+@font-face {
+    font-family: klavika;
+    src: url(../Fontes/klavika.otf), url(../Fontes/klavika-bold.otf);
+}
+
+body {
+    font-family: klavika;
+    font-weight: bold;
+}
+
+.container {
+    padding: 0 2rem;
+}
+
+.botao {
+    background-color: #dd1818;
+    border: none;
+    color: white;
+    font-family: klavika;
+    font-size: 16px;
+    padding: 0.7rem 1rem;
+}
+
+.botao:hover {
+    background-color: #ca1717;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}

@@ -1,0 +1,55 @@
+.vantagens__bloco {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 4px solid black;
+    padding-bottom: 15px ;
+    margin: 0 1.5rem;
+}
+
+.vantagens__bloco-texto {
+    color: var(--cor-texto-claro);
+    height: 120px;
+    margin: 0 1rem;  
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: top 1.25rem left 2.5rem;
+    background-size: 90px;
+    max-width: 200px;
+    padding: 8rem 0 2rem 0rem;
+    text-align: center;
+}
+
+.atendente {
+    background-image: url(../Imagens/Main/Atendente.jpeg);
+    padding-right: 2rem;
+}
+
+.caixa {
+    background-image: url(../Imagens/Main/Caixa.jpeg);
+    padding-right: 1.5rem;
+}
+
+.globo {
+    background-image: url(../Imagens/Main/Globo.jpeg);
+    padding-right: 1.5rem;
+}
+
+.caminhao {
+    background-image: url(../Imagens/Main/Caminhao.jpeg);
+    background-position: left 2rem;
+    background-size: 130px;
+    padding-right: 3rem;
+    width: 300px;
+}
+
+.vantagens__botao {
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.vantagens__botao-texto {
+    color: var(--cor-texto-claro);
+    font-size: 22px;
+    margin-bottom: 20px;
+}
