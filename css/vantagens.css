@@ -1,20 +1,20 @@
 .vantagens__bloco {
-    justify-content: center;
+    border-bottom: 4px solid var(--cor-de-fundo-escuro);
     display: flex;
     flex-direction: row;
-    border-bottom: 4px solid black;
-    padding-bottom: 15px ;
+    justify-content: center;
     margin: 0 1.5rem;
+    padding-bottom: 15px ;
 }
 
 .vantagens__bloco-texto {
+    background-position: top 1.25rem left 2.5rem;
+    background-repeat: no-repeat;
+    background-size: 90px;
+    box-sizing: border-box;
     color: var(--cor-texto-claro);
     height: 120px;
     margin: 0 1rem;  
-    box-sizing: border-box;
-    background-repeat: no-repeat;
-    background-position: top 1.25rem left 2.5rem;
-    background-size: 90px;
     max-width: 200px;
     padding: 8rem 0 2rem 0rem;
     text-align: center;
@@ -38,14 +38,14 @@
 .caminhao {
     background-image: url(../Imagens/Main/Caminhao.jpeg);
     background-position: left 2rem;
-    background-size: 130px;
     padding-right: 3rem;
+    background-size: 130px;
     width: 300px;
 }
 
 .vantagens__botao {
-    text-align: center;
     padding: 1.5rem 0;
+    text-align: center;
 }
 
 .vantagens__botao-texto {
