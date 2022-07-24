@@ -1,0 +1,21 @@
+.distribuidor {
+    margin-bottom: 1.5rem;
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.distribuidor__texto {
+    color: var(--cor-texto-claro);
+    font-size: 30px;
+}
+
+.distribuidor__imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.distribuidor__logo {
+    height: auto;
+    width: 225px;
+}

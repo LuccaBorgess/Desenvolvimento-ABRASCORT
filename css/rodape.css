@@ -1,0 +1,36 @@
+.rodape {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-texto-claro);
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.rodape__whatsapp {
+    align-items: center;
+    display: flex;
+}
+
+.rodape__whatsapp-texto {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.rodape__whatsapp-logo {
+    width: 30px;
+}
+
+.rodape__localizacao {
+    display: flex;
+    font-size: 17px;
+}
+
+.rodape__localizacao-bloco {
+    border-right: 2px solid var(--cor-borda);
+    padding: 1rem;
+    text-align: right;
+}
+
+.rodape__localizacao-chamada {
+    padding: 1rem;
+}
