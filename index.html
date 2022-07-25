@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="css/variaveis.css">
     <link rel="stylesheet" href="css/body.css">
     <link rel="stylesheet" href="css/cabecalho.css">
-    <link rel="stylesheet" href="css/apresentacao.css">
+    <link rel="stylesheet" href="css/paralax.css">
     <link rel="stylesheet" href="css/vantagens.css">
     <link rel="stylesheet" href="css/distribuidor.css">
     <link rel="stylesheet" href="css/localizacao.css">
     <link rel="stylesheet" href="css/rodape.css">
+    <script src = "js/paralax.js" defer></script>
 </head>
 <body>
     <header class = "cabecalho container">
@@ -36,8 +37,12 @@
     </header>
     <main>
         <section class = "apresentacao">
-            <img class = "apresentacao__logo" src = "Imagens/Main/Barra 1.jpg" alt = "Logo do Grupo Abrascort e uma pessoa em uma plantação.">
-            <img class = "apresentacao__caminhao" src = "Imagens/Main/Barra 2.jpg" alt = "Um caminhão da RCC">
+            <img class = "apresentacao__img" id = "fundo-logo" src = "Imagens/Main/Barra 1.jpg" alt = "Logo do Grupo Abrascort e uma pessoa em uma plantação.">
+            <img class = "apresentacao__img" id = "fundo-caminhao" src = "Imagens/Main/Banner 2 600px.jpeg" alt = "Um caminhão da RCC">
+            <div class = "apresentacao__bloco">
+                <h1 class = "apresentacao__titulo" id = "texto-paralax">NÓS FORNECEMOS PRODUTOS E SERVIÇOS QUE MANTÉM SEU EQUIPAMENTO FUNCIONANDO</h1>
+                <a href="#"><input class = "apresentacao__botao" id = "botao-paralax" type = "button" value = "CONHEÇA NOSSOS PRODUTOS"></a>
+            </div>
         </section>
         <section class = "vantagens container">
             <div class = "vantagens__bloco">
@@ -48,27 +53,26 @@
             </div>
             <div class = "vantagens__botao">
                 <p class = "vantagens__botao-texto">A MISSÃO DO GRUPO ABRASCORT É MANTER O NEGÓCIO DOS SEUS CLIENTES EM MOVIMENTO</p>
-                <a href="#"><input class = "botao" type = "button" value = "CONHEÇA NOSSOS PRODUTOS"></a>
+                <a href="#"><input class = "botao" type = "button" value = "SAIBA MAIS"></a>
             </div>
         </section>
         <section class = "distribuidor container">
             <h2 class = "distribuidor__texto">DISTRIBUIDOR AUTORIZADO</h2>
             <ul class = "distribuidor__imgs">
-                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/BONFIGLIOLI.jpeg" alt = "Logo da BONFIGLIOLI"></li>
-                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/D.I.D.jpeg" alt = "Logo da D.I.D"></li>
-                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/DANFOSS.jpeg" alt = "Logo da DANFOSS"></li>
-                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/DONALDSON.jpeg" alt = "Logo da DONALDSON"></li>
-                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/GATES.jpeg" alt = "Logo da GATES"></li>
-                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/KOYO.jpeg" alt = "Logo da KOYO"></li>
-                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/PARKER.jpeg" alt = "Logo da PARKER"></li>
-                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/RCC ps.jpeg" alt = "Logo da RXX prime steel"></li>
-                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/RCC pw.jpeg" alt = "Logo da RCC prime transmission"></li>
-                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/REXNORD.jpeg" alt = "Logo da REXNORD"></li>
-                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/REXROTH.jpeg" alt = "Logo da REXROTH"></li>
-                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/TRELLEBORG.jpeg" alt = "Logo da TRELLEBORG"></li>
-                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/MEGA WHIP.jpeg" alt = "Logo da MEGA WHIP"></li>
-                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/HYDRO LEDUC.jpeg" alt = "Logo da HYDRO LEDUC"></li>
-                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/EATON.jpeg" alt = "Logo da EATON"></li>
+                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/RCC.png" alt = "Logo da RCC"></li>
+                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/Primesteel.png" alt = "Logo da Primesteel"></li>
+                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/Gates.png" alt = "Logo da Gates"></li>
+                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/Trelleborg.png" alt = "Logo da Trelleborg"></li>
+                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/Donaldson.png" alt = "Logo da Donaldson"></li>
+                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/Rexnord.png" alt = "Logo da Rexnord"></li>
+                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/DID.png" alt = "Logo da DID"></li>
+                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/Rexroth.png" alt = "Logo da Rexroth"></li>
+                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/Danfoss.png" alt = "Logo da Danfoss"></li>
+                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/Bonfiglioli.png" alt = "Logo da Bonfiglioli"></li>
+                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/Paker.png" alt = "Logo da Parker"></li>
+                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/Koyo.png" alt = "Logo da Koyo"></li>
+                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/Hydro Leduc.png" alt = "Logo da Hydro Leduc"></li>
+                <li><img class = "distribuidor__logo" src = "Imagens/Main/Distribuidor/Mega Whip.png" alt = "Logo da Mega Whip"></li>
             </ul>
         </section>
         <section class = "localizacao container">
@@ -137,7 +141,7 @@
     <footer class = "rodape container">
         <div class = "rodape__whatsapp">
             <p class = "rodape__whatsapp-texto"> Para suporte e atendimento, clique aqui:</p>
-            <a href = "https://web.whatsapp.com/send?phone=554121699999" target = "_blank"><img class = "rodape__whatsapp-logo" src="Imagens/Rodape/whatsapp.jpeg" alt="Logo do whatsapp"></a>
+            <a href = "https://web.whatsapp.com/send?phone=554121699999" target = "_blank"><img class = "rodape__whatsapp-logo" src="Imagens/Rodape/whatsapp sf.png" alt="Logo do whatsapp"></a>
         </div>
         <div class = "rodape__localizacao">
             <address class = "rodape__localizacao-bloco">

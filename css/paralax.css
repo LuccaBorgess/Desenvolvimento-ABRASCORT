@@ -1,0 +1,54 @@
+.apresentacao {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresentacao__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+
+#fundo-caminhao {
+    height: 100%;
+    z-index: -1;
+}
+
+.apresentacao__bloco {
+    position: relative;
+    top: 14rem;
+    text-align: center;
+    width: 600px;
+}
+
+.apresentacao__titulo {
+    position: relative;
+    color: #fff;
+    font-size: 30px;
+    z-index: 1;
+    margin-bottom: 1rem;
+}
+
+.apresentacao__botao {
+    background-color: #dd1818;
+    color: white;
+    border: none;
+    font-family: klavika;
+    font-size: 16px;
+    padding: 0.7rem 1rem;
+}
+
+.apresentacao__botao:hover {
+    background-color: #ca1717;
+    cursor: pointer;
+}
