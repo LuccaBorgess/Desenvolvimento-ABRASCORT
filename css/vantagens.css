@@ -1,55 +1,54 @@
+.vantagens {
+    background-color: var(--cor-de-fundo);
+    text-align: center;
+}
+
 .vantagens__bloco {
-    border-bottom: 4px solid var(--cor-de-fundo-escuro);
+    text-align: center;
+    border-top: 4px solid var(--cor-borda);
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 0 1.5rem;
+    margin-bottom: 20px;
     padding-bottom: 15px ;
 }
 
 .vantagens__bloco-texto {
-    background-position: top 1.25rem left 2.5rem;
+    background-position-x: right;
     background-repeat: no-repeat;
-    background-size: 90px;
+    background-size: 200px;
     box-sizing: border-box;
     color: var(--cor-texto-claro);
     height: 120px;
     margin: 0 1rem;  
     max-width: 200px;
-    padding: 8rem 0 2rem 0rem;
+    padding: 9rem 0 2rem 0rem;
     text-align: center;
 }
 
 .atendente {
-    background-image: url(../Imagens/Main/Vantagens/Atendente.jpeg);
-    padding-right: 2rem;
+    background-image: url(../Imagens/Main/Vantagens/Atendente.png);
 }
 
 .caixa {
-    background-image: url(../Imagens/Main/Vantagens/Caixa.jpeg);
-    padding-right: 1.5rem;
+    background-image: url(../Imagens/Main/Vantagens/Caixa.png);
 }
 
 .globo {
-    background-image: url(../Imagens/Main/Vantagens/Globo.jpeg);
-    padding-right: 1.5rem;
+    background-image: url(../Imagens/Main/Vantagens/Globo.png);
 }
 
 .caminhao {
-    background-image: url(../Imagens/Main/Vantagens/Caminhao.jpeg);
-    background-position: left 2rem;
-    padding-right: 3rem;
-    background-size: 130px;
-    width: 300px;
+    background-image: url(../Imagens/Main/Vantagens/Caminhao.png);
 }
 
 .vantagens__botao-texto {
     color: var(--cor-texto-claro);
     font-size: 30px;
-    margin-bottom: 20px;
+    padding: 20px 0;
 }
 
 .vantagens__botao {
-    padding: 1.5rem 0;
-    text-align: center;
+    margin-bottom: 20px;
 }
