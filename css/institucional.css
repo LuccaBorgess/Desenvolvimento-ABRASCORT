@@ -1,0 +1,22 @@
+.institucional {
+    padding-top: 1rem;
+}
+
+.institucional__titulo {
+    text-align: center;
+    font-size: 30px;
+    color: var(--cor-texto-claro);
+    margin-bottom: 1rem;
+}
+
+.institucional__paragrafo {
+    font-size: 20px;
+    text-align: justify;
+    color: var(--cor-texto-escuro);
+    margin-bottom: 0.5rem;
+}
+
+.institucional__img {
+    display: block;
+    width: 100%;
+}
