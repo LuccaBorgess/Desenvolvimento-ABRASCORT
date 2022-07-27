@@ -3,17 +3,17 @@
 }
 
 .institucional__titulo {
-    text-align: center;
-    font-size: 30px;
     color: var(--cor-texto-claro);
+    font-size: 30px;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .institucional__paragrafo {
-    font-size: 20px;
-    text-align: justify;
     color: var(--cor-texto-escuro);
+    font-size: 20px;
     margin-bottom: 0.5rem;
+    text-align: justify;
 }
 
 .institucional__img {
