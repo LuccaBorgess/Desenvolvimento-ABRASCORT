@@ -9,7 +9,7 @@ body {
 }
 
 strong {
-    color: var(--cor-negrito);
+    font-weight: bold;
 }
 
 .container {
