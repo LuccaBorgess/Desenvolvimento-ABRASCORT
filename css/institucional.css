@@ -1,11 +1,11 @@
 .institucional {
-    padding-top: 1rem;
+    padding-top: 2.5rem;
 }
 
 .institucional__titulo {
     color: var(--cor-texto-claro);
     font-size: 30px;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.7rem;
     text-align: center;
 }
 
