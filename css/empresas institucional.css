@@ -1,0 +1,28 @@
+.empresas {
+    margin-top: 4rem;
+}
+
+.empresas__titulo {
+    color: var(--cor-texto-claro);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.empresas__imgs-lista {
+    display: flex;
+}
+
+.empresas__item {
+    border-right: 2px solid var(--cor-borda);
+    margin-right: 0.5rem;
+}
+
+.empresas__item:nth-child(6) {
+    border: none;
+    margin: 0;
+}
+
+.empresas__imagem {
+    width: 100%;
+}

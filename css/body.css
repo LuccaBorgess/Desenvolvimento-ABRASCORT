@@ -8,6 +8,10 @@ body {
     font-weight: bold;
 }
 
+strong {
+    color: var(--cor-negrito);
+}
+
 .container {
     padding: 0 2rem;
 }
