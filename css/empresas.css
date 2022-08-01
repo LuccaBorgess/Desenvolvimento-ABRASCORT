@@ -1,0 +1,58 @@
+.empresas-introducao__bloco {
+    align-items: center;
+    display: flex;
+}
+
+.empresas-introducao__titulo {
+    color: var(--cor-texto-claro);
+    font-size: 30px;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.empresas-introducao__texto {
+    margin-bottom: 2rem;
+}
+
+.empresas-introducao__texto, .informacoes__item-texto {
+    color: var(--cor-texto-escuro);
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.empresas-introducao__mapa {
+    display: block;
+    height: 650px;
+    width: auto;
+}
+
+.empresas-introducao__lista {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.empresas-introducao__imagem {
+    max-width: 180px;
+}
+
+.empresas-informacoes__item {
+    margin: 2.5rem 0;
+}
+
+.empresas-informacoes__lista {
+    text-align: center;
+    width: 100%;
+}
+
+.informacoes__item-titulo {
+    color: var(--cor-texto-claro);
+    font-size: 25px;
+}
+
+.informacoes__item-img {
+    height: 100px;
+}
+
+.informacoes__item-texto {
+    text-align: justify;
+}

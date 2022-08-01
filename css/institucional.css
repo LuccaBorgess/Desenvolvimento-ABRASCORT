@@ -1,4 +1,5 @@
 .institucional {
+    margin: 0 4rem;
     padding-top: 2.5rem;
 }
 
@@ -16,6 +17,36 @@
     margin-bottom: 0.5rem;
     text-align: justify;
 }
+
+.empresas {
+    margin-top: 4rem;
+}
+
+.empresas__titulo {
+    color: var(--cor-texto-claro);
+    font-size: 30px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.empresas__imgs-lista {
+    display: flex;
+}
+
+.empresas__item {
+    border-right: 2px solid var(--cor-borda);
+    margin-right: 0.5rem;
+}
+
+.empresas__item:nth-child(6) {
+    border: none;
+    margin: 0;
+}
+
+.empresas__imagem {
+    width: 100%;
+}
+
 
 .institucional__img {
     display: block;

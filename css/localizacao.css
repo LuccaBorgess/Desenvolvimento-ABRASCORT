@@ -1,22 +1,23 @@
 .localizacao {
-    align-items: center;
     background-color: var(--cor-de-fundo-escuro);
-    padding-top: 1rem;
+    padding: 2rem 0;
 }
 
 .localizacao__lista {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .localizacao__item {
     border-right: 2px solid var(--cor-borda);
     color: var(--cor-texto-claro);
-    margin-bottom: 1rem;
-    width: 190px;
+    font-weight: lighter;
+    margin: 0.5rem 0;
     min-width: 150px;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    width: 195px;
 }
 
 .localizacao__item:nth-child(9) {

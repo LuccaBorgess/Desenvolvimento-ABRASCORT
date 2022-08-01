@@ -11,12 +11,13 @@
 
 .cabecalho__menu-lista {
     display: flex;
+    white-space: nowrap;
 }
 
 .cabecalho__menu-item {
     color: var(--cor-texto-escuro);
     font-size: 17px;
-    margin: 0 20px;
+    padding: 0 20px;
     text-decoration: none;
 }
 
@@ -48,4 +49,42 @@
 .cabecalho__sociais-img {
     height: 35px;
     margin: 0 10px;
+}
+
+/* SUB MENU */
+
+.cabecalho__menu-item:nth-child(1) {
+    padding-left: 0;
+}
+
+.cabecalho__menu-item {
+    position: relative;
+}
+
+#menudropdown:hover {
+    cursor: pointer;
+}
+
+#menudropdown:hover .cabecalho__menu-sublista{
+    display: block;
+}
+
+.cabecalho__menu-sublista {
+    background-color: var(--cor-de-fundo-escuro);
+    display: none;
+    padding: 0.5rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.cabecalho__menu-subitem {
+    color: var(--cor-texto-escuro);
+    display: block;
+    padding: 0.3rem;
+    text-decoration: none;
+}
+
+.cabecalho__menu-subitem:hover {
+    color: var(--cor-texto-claro);
+    transform: 0.5s ease-in-out;
 }
