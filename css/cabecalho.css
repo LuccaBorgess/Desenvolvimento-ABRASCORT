@@ -1,8 +1,42 @@
-.cabecalho {
+.cabecalho-superior {
+    align-items: center;
+    background-color: var(--cor-de-fundo-escuro);
+    display: flex;
+    height: 65px;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+.cabecalho-superior__bloco {
     align-items: center;
     display: flex;
+}
+
+.cabecalho-inferior {
+    align-items: center;
+    display: flex;
+    height: 80px;
     justify-content: space-between;
-    padding: 0.5rem 2rem;
+    padding: 0 3rem;
+}
+
+.cabecalho-inferior__contato {
+    text-align: center;
+}
+
+.cabecalho-inferior__atendimento {
+    border-bottom: 2px solid var(--cor-borda);
+    color: var(--cor-texto-claro);
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+    padding: 0 0.5rem;
+}
+
+.cabecalho-inferior__numero {
+    color: var(--cor-texto-escuro);
+    font-size: 28px;
+    font-weight: lighter;
+    text-decoration: none;
 }
 
 .cabecalho__logo {
@@ -16,8 +50,8 @@
 
 .cabecalho__menu-item {
     color: var(--cor-texto-escuro);
-    font-size: 17px;
-    padding: 0 20px;
+    font-size: 20px;
+    padding: 0 50px;
     text-decoration: none;
 }
 
@@ -27,16 +61,18 @@
 }
 
 .cabecalho__pesquisa {
+    background-color: var(--cor-de-fundo-escuro);
     background-image: url(../Imagens/Cabecalho/Raster.png);
     background-position: 2px 3px;
     background-repeat: no-repeat;
     background-size: 20px;
-    border: none;
+    border: solid 2px var(--cor-borda);
     color: var(--cor-texto-escuro);
     font-family: klavika;
     font-size: 17px;
     font-weight: bold;
     height: 25px;
+    outline-style: none;
     padding-left: 25px;
     width: 200px;
 }
@@ -47,7 +83,7 @@
 }
 
 .cabecalho__sociais-img {
-    height: 35px;
+    height: 40px;
     margin: 0 10px;
 }
 

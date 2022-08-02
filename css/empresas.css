@@ -35,6 +35,10 @@
     max-width: 180px;
 }
 
+.empresas-informacoes {
+    margin: 0 3rem;
+}
+
 .empresas-informacoes__item {
     margin: 2.5rem 0;
 }

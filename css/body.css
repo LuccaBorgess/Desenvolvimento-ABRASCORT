@@ -12,6 +12,10 @@ strong {
     font-weight: bold;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     padding: 0 2rem;
 }
