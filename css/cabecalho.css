@@ -14,6 +14,7 @@
 
 .cabecalho-inferior {
     align-items: center;
+    background-color: var(--cor-de-fundo);
     display: flex;
     height: 80px;
     justify-content: space-between;
@@ -21,6 +22,8 @@
 }
 
 .cabecalho-inferior__contato {
+    display: flex;
+    align-items: center;
     text-align: center;
 }
 
@@ -30,6 +33,10 @@
     font-size: 20px;
     margin-bottom: 0.5rem;
     padding: 0 0.5rem;
+}
+
+.cabecalho-inferior__img {
+    height: 70px;
 }
 
 .cabecalho-inferior__numero {
@@ -63,17 +70,18 @@
 .cabecalho__pesquisa {
     background-color: var(--cor-de-fundo-escuro);
     background-image: url(../Imagens/Cabecalho/Raster.png);
-    background-position: 2px 3px;
+    background-position: 13px 6px;
     background-repeat: no-repeat;
     background-size: 20px;
-    border: solid 2px var(--cor-borda);
+    border: solid 2px var(--cor-de-fundo);
+    border-radius: 7px;
     color: var(--cor-texto-escuro);
     font-family: klavika;
     font-size: 17px;
     font-weight: bold;
     height: 25px;
     outline-style: none;
-    padding-left: 25px;
+    padding: 3px 35px;
     width: 200px;
 }
 

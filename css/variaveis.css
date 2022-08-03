@@ -1,7 +1,8 @@
 :root {
-    --cor-de-fundo: #E5E9F2;
-    --cor-de-fundo-escuro:#d1d6e0;
+    --cor-de-fundo: #E3E3E3;
+    --cor-de-fundo-escuro:#C6C6C6;
     --cor-texto-escuro: #47525E;
     --cor-texto-claro: #343F4B;
+    --cor-texto-icones: #575756;
     --cor-borda: #969FAA;
 }
