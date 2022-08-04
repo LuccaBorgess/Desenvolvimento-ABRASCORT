@@ -12,7 +12,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: auto;
     height: 50%;
     object-fit: cover;
     pointer-events: none;
