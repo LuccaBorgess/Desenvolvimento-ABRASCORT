@@ -114,7 +114,7 @@
 }
 
 .cabecalho__menu-sublista {
-    background-color: var(--cor-de-fundo-escuro);
+    background-color: var(--cor-submenu);
     display: none;
     padding: 0.5rem;
     position: absolute;
