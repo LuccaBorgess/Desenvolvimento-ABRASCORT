@@ -58,7 +58,7 @@
 .cabecalho__menu-item {
     color: var(--cor-texto-escuro);
     font-size: 20px;
-    padding: 0 50px;
+    margin-right: 50px;
     text-decoration: none;
 }
 
@@ -90,6 +90,10 @@
     transition: 0.5s ease-in-out;
 }
 
+.cabecalho__sociais {
+    margin-left: 19px;
+}
+
 .cabecalho__sociais-img {
     height: 40px;
     margin: 0 10px;
@@ -105,16 +109,17 @@
     position: relative;
 }
 
-#menudropdown:hover {
+.menudropdown:hover {
     cursor: pointer;
 }
 
-#menudropdown:hover .cabecalho__menu-sublista{
+.menudropdown:hover .cabecalho__menu-sublista{
     display: block;
 }
 
 .cabecalho__menu-sublista {
     background-color: var(--cor-submenu);
+    border-radius: 7px;
     display: none;
     padding: 0.5rem;
     position: absolute;
@@ -131,4 +136,26 @@
 .cabecalho__menu-subitem:hover {
     color: var(--cor-texto-claro);
     transform: 0.5s ease-in-out;
+}
+
+.menudropdown:hover #segmentos {
+    display: flex;
+}
+
+.cabecalho__menu-segmentos {
+    align-items: center;
+    border-right: 2px solid var(--cor-borda-escura);
+    display: flex;
+    flex-direction: column;
+    padding:0 15px;
+    font-size: 18px;
+}
+
+.cabecalho__segmentos-img {
+    width: auto;
+    max-width: 80px;
+}
+
+#sucroalcoleiro {
+    border: none;
 }
