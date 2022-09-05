@@ -1,0 +1,196 @@
+.trabalhe-conosco {
+    background-color: var(--cor-de-fundo-claro);
+    padding-left: 3.5rem;
+    padding-top: 2rem;
+}
+
+.trabalhe-conosco__titulo {
+    padding-right: 3rem;
+}
+
+.trabalhe-conosco__titulo, .info__titulo {
+    color: var(--cor-texto-escuro);
+    font-size: 30px;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.trabalhe-conosco__bloco {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trabalhe-conosco__paragrafo {
+    color: var(--cor-texto-claro);
+    font-size: 20px;
+    font-weight: lighter;
+    padding-bottom: 1rem;
+}
+
+.trabalhe-conosco__img {
+    max-width: 600px;
+    display: block;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-de-fundo-escuro);
+    padding: 2rem 3.5rem;
+}
+
+.info__titulo {
+    border-bottom: 2px solid var(--cor-borda);
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.info__bloco {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-padrao {
+    background-color: var(--cor-input);
+    border: none;
+    border-radius: 7px;
+    max-width: 200px;
+    height: 30px;
+    outline-style: none;
+    margin: 1rem 0;
+    padding-left: 10px;
+    font-family: klavika;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.input-longo {
+    max-width: 600px;
+    min-width: 450px;
+}
+
+.label-padrao, .texto-curriculo {
+    color: var(--cor-texto-claro);
+}
+
+.label-ddd {
+    font-weight: lighter;
+}
+
+.ddd {
+    max-width: 50px;
+    text-align: center;
+    margin: 0 10px;
+    padding-left: 0;
+}
+
+.curriculo-bloco {
+    text-align: center;
+}
+
+.input-curriculo {
+    display: none;
+}
+
+.label-curriculo, .enviar {
+    color: var(--cor-texto-branco);
+    font-weight: lighter;
+    background-color: var(--cor-texto-icones);
+    width: 150px;
+    padding: 0.5rem;
+}
+
+.label-curriculo {
+    display: inline-block;
+}
+
+.label-curriculo:hover {
+    background-color: var(--cor-texto-icones-escuro);
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
+.texto-curriculo {
+    background-image: url("../Imagens/Trabalhe conosco/Clip.png");
+    background-position: 30px -3px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    height: 20px;
+    padding-top: 7px;
+    margin: 1.5rem 0;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.mensagem {
+    background-color: var(--cor-input);
+    border: none;
+    border-radius: 7px;
+    max-width: 600px;
+    max-height: 200px;
+    min-height: 80px;
+    margin: 1rem 0;
+    height: 70px;
+    outline-style: none;
+    font-family: klavika;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.info-borda {
+    border-bottom: 2px solid var(--cor-borda);
+}
+
+.input-enviar {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.enviar, .distribuidor__botao {
+    background-color: var(--cor-fundo-botao-cinza);
+    border: none;
+    font-size: 15px;
+}
+
+.enviar:hover, .distribuidor__botao:hover {
+    cursor: pointer;
+    background-color: var(--cor-fundo-botao-cinza-hover);
+    transition: ease-in-out 0.5s;
+}
+
+.formulario__bloco {
+    display: flex;
+    justify-content: center;
+}
+
+.distribuidor {
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-de-fundo-claro);
+    display: flex;
+    padding: 2rem 0 ;
+}
+
+.distribuidor__texto {
+    font-size: 20px;
+    margin-right: 5rem;
+    margin-left: 0.5rem;
+}
+
+.distribuidor__img {
+    width: 55px;
+}
+
+.distribuidor__botao {
+    font-family: klavika;
+    color: var(--cor-texto-branco);
+    width: 250px;
+    height: 35px;
+}
