@@ -14,12 +14,13 @@
     color: var(--cor-texto-claro);
     font-weight: lighter;
     height: 85px;
-    margin: 0.5rem 0;
+    margin: 1rem 0;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    width: 195px;
+    text-transform: uppercase;
+    width: 200px;
 }
 
-.localizacao__item:nth-child(9) {
+.localizacao__item:nth-child(10) {
     border: none;
 }

@@ -21,6 +21,10 @@
     justify-content: space-between;
 }
 
+.trabalhe-conosco__texto {
+    max-width: 800px;
+}
+
 .trabalhe-conosco__paragrafo {
     color: var(--cor-texto-claro);
     font-size: 20px;
@@ -29,21 +33,21 @@
 }
 
 .trabalhe-conosco__img {
-    max-width: 600px;
     display: block;
+    max-width: 600px;
 }
 
 .info {
+    background-color: var(--cor-de-fundo-escuro);
     display: flex;
     flex-direction: column;
-    background-color: var(--cor-de-fundo-escuro);
     padding: 2rem 3.5rem;
 }
 
 .info__titulo {
     border-bottom: 2px solid var(--cor-borda);
-    padding-bottom: 0.5rem;
     margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 .info__bloco {
@@ -61,14 +65,14 @@
     background-color: var(--cor-input);
     border: none;
     border-radius: 7px;
-    max-width: 200px;
-    height: 30px;
-    outline-style: none;
-    margin: 1rem 0;
-    padding-left: 10px;
     font-family: klavika;
-    font-weight: lighter;
     font-size: 15px;
+    font-weight: lighter;
+    height: 30px;
+    margin: 1rem 0;
+    max-width: 200px;
+    outline-style: none;
+    padding-left: 10px;
 }
 
 .input-longo {
@@ -85,10 +89,10 @@
 }
 
 .ddd {
-    max-width: 50px;
-    text-align: center;
     margin: 0 10px;
+    max-width: 50px;
     padding-left: 0;
+    text-align: center;
 }
 
 .curriculo-bloco {
@@ -100,14 +104,15 @@
 }
 
 .label-curriculo, .enviar {
+    background-color: var(--cor-texto-icones);
     color: var(--cor-texto-branco);
     font-weight: lighter;
-    background-color: var(--cor-texto-icones);
-    width: 150px;
     padding: 0.5rem;
+    width: 150px;
 }
 
 .label-curriculo {
+    border-radius: 7px;
     display: inline-block;
 }
 
@@ -122,25 +127,25 @@
     background-position: 30px -3px;
     background-repeat: no-repeat;
     background-size: 30px;
-    height: 20px;
-    padding-top: 7px;
-    margin: 1.5rem 0;
-    font-weight: lighter;
     font-size: 13px;
+    font-weight: lighter;
+    height: 20px;
+    margin: 1.5rem 0;
+    padding-top: 7px;
 }
 
 .mensagem {
     background-color: var(--cor-input);
     border: none;
     border-radius: 7px;
-    max-width: 600px;
-    max-height: 200px;
-    min-height: 80px;
-    margin: 1rem 0;
-    height: 70px;
-    outline-style: none;
     font-family: klavika;
     font-size: 15px;
+    height: 70px;
+    margin: 1rem 0;
+    max-height: 200px;
+    min-height: 80px;
+    max-width: 600px;
+    outline-style: none;
     padding-left: 10px;
 }
 
@@ -149,13 +154,14 @@
 }
 
 .input-enviar {
-    text-align: center;
     margin-top: 1rem;
+    text-align: center;
 }
 
 .enviar, .distribuidor__botao {
     background-color: var(--cor-fundo-botao-cinza);
     border: none;
+    border-radius: 7px;
     font-size: 15px;
 }
 
@@ -171,10 +177,10 @@
 }
 
 .distribuidor {
-    justify-content: center;
     align-items: center;
     background-color: var(--cor-de-fundo-claro);
     display: flex;
+    justify-content: center;
     padding: 2rem 0 ;
 }
 
@@ -189,8 +195,8 @@
 }
 
 .distribuidor__botao {
-    font-family: klavika;
     color: var(--cor-texto-branco);
-    width: 250px;
+    font-family: klavika;
     height: 35px;
+    width: 250px;
 }
