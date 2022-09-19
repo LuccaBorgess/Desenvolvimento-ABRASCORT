@@ -16,13 +16,15 @@
 
 .empresas-introducao__logo {
     display: block;
-    width: 150px;
+    width: 180px;
 }
 
 .empresas-introducao__lista {
     border: 3px solid rgb(192, 12, 12);
     border-top: none;
     border-radius: 7px;
+    margin-left: 0.45rem;
+    max-width: 160px;
 }
 
 .empresas-introducao__img {
