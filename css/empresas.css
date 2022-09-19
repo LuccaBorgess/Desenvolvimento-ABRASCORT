@@ -36,7 +36,7 @@
 }
 
 .empresas-introducao__mapa {
-    width: 750px;
+    margin-left: 13rem;
 }
 
 .informacoes__item-texto {
@@ -51,6 +51,10 @@
 
 .empresas-informacoes__item {
     margin: 2.5rem 0;
+}
+
+.empresas-informacoes__item:nth-child(1) {
+    margin-top: 0;
 }
 
 .empresas-informacoes__lista {
