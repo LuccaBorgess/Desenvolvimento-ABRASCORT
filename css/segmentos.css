@@ -1,0 +1,55 @@
+.segmentos-introducao {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 180px;
+    justify-content: space-around;
+    background-color: var(--cor-de-fundo-escuro);
+}
+
+.segmentos-empresas {
+    display: flex;
+    flex-direction: row;
+}
+
+.segmentos-conteudo__icone {
+    width: 100px;
+}
+
+.segmentos-conteudo__titulo {
+    color: var(--cor-texto-claro);
+    border-right: 2px solid var(--cor-borda);
+    font-size: 25px;
+    padding: 35px 15px;
+}
+
+.segmentos-conteudo__logo {
+    max-width: 170px;
+    max-height: 65px;
+    padding-top: 1rem;
+}
+
+.segmentos-informacao {
+    background-color: var(--cor-de-fundo);
+    padding: 20px 2rem;
+}
+
+.segmentos-informacao__texto {
+    color: var(--cor-texto-claro);
+    border-bottom: 2px solid var(--cor-borda);
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 1rem;
+}
+
+.segmentos-informacao__bloco {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.segmentos-main__imagem {
+    display: block;
+    width: 100%;
+}
