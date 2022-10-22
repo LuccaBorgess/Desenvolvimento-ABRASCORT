@@ -14,19 +14,20 @@
 }
 
 .segmentos-conteudo__icone {
-    width: 100px;
+    width: 80px;
+    height: 90px;
 }
 
 .segmentos-conteudo__titulo {
     color: var(--cor-texto-claro);
     border-right: 2px solid var(--cor-borda);
-    font-size: 25px;
+    font-size: 20px;
     padding: 35px 15px;
 }
 
 .segmentos-conteudo__logo {
-    max-width: 170px;
-    max-height: 65px;
+    max-width: 140px;
+    max-height: 55px;
     padding-top: 1rem;
 }
 
@@ -40,7 +41,7 @@
     border-bottom: 2px solid var(--cor-borda);
     font-size: 20px;
     font-weight: lighter;
-    padding: 1rem 8rem;
+    padding: 1rem 9rem;
 }
 
 .segmentos-informacao__bloco {

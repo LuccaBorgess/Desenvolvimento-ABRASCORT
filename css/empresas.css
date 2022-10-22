@@ -1,17 +1,24 @@
 .empresas-introducao {
-    padding-top: 1rem;
     text-align: center;
+    max-height: 900px;
 }
 
 .empresas-introducao__titulo {
     color: var(--cor-texto-claro);
     font-size: 30px;
+    margin: 2rem 0;
 }
 
 .empresas-introducao__bloco {
     align-items: center;
     display: flex;
     justify-content: center;
+}
+
+.empresas-introducao__subbloco {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .empresas-introducao__logo {
@@ -36,7 +43,7 @@
 }
 
 .empresas-introducao__mapa {
-    margin-left: 13rem;
+    max-height: 500px;
 }
 
 .informacoes__item-texto {
