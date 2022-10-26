@@ -79,5 +79,6 @@
 }
 
 .informacoes__item-texto {
+    line-height: 2rem;
     text-align: justify;
 }
