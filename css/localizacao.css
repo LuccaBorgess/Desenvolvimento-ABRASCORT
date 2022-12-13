@@ -1,6 +1,5 @@
 .localizacao {
     background-color: var(--cor-de-fundo-escuro);
-    padding: 2rem 0;
 }
 
 .localizacao__lista {
@@ -22,10 +21,6 @@
     width: 170px;
 }
 
-.localizacao__item:nth-child(10) {
+.localizacao__item:last-child {
     border: none;
-}
-
-.segmentos-localizacao {
-    padding: 2rem 7.5rem;
 }

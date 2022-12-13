@@ -26,7 +26,8 @@
     color: var(--cor-texto-claro);
     border-right: 2px solid var(--cor-borda);
     font-size: 20px;
-    padding: 35px 15px;
+    padding: 35px 30px 35px 15px;
+    margin-right: 15px;
 }
 
 .segmentos__conteudo-logo {

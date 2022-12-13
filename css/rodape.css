@@ -3,7 +3,8 @@
     color: var(--cor-texto-claro);
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .rodape__bloco {

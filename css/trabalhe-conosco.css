@@ -1,6 +1,6 @@
 .trabalhe-conosco {
     background-color: var(--cor-de-fundo-claro);
-    padding: 2rem 4rem 0 4rem;
+    padding-top: 2rem;
 }
 
 .trabalhe-conosco__titulo {
@@ -42,12 +42,11 @@
     background-color: var(--cor-de-fundo-escuro);
     display: flex;
     flex-direction: column;
-    padding: 2rem 3.5rem;
 }
 
 .info__titulo {
     border-bottom: 2px solid var(--cor-borda);
-    margin-bottom: 2rem;
+    margin: 1.2rem 0;
     padding-bottom: 0.5rem;
 }
 
@@ -154,7 +153,7 @@
 }
 
 .input-enviar {
-    margin-top: 1rem;
+    margin: 1rem 0;
     text-align: center;
 }
 
