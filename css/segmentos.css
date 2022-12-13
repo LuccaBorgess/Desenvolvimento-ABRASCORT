@@ -1,9 +1,9 @@
-.segmentos-main__imagem {
+.segmentos__imagem {
     display: block;
     width: 100%;
 }
 
-.segmentos-introducao {
+.segmentos__introducao {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -12,74 +12,47 @@
     background-color: var(--cor-de-fundo);
 }
 
-.segmentos-empresas {
+.segmentos__empresas {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.segmentos-conteudo__icone {
+.segmentos__conteudo-icone {
     height: 80px;
 }
 
-.segmentos-conteudo__titulo {
+.segmentos__conteudo-titulo {
     color: var(--cor-texto-claro);
     border-right: 2px solid var(--cor-borda);
     font-size: 20px;
     padding: 35px 15px;
 }
 
-.segmentos-conteudo__logo {
+.segmentos__conteudo-logo {
     max-width: 140px;
     max-height: 55px;
     padding-top: 1rem;
 }
 
-.segmentos-informacao {
-    padding: 20px 2rem;
+.segmentos__informacao {
+    padding: 20px 10rem;
 }
 
-.segmentos-informacao__texto {
+.segmentos__informacao-texto {
     color: var(--cor-texto-claro);
     border-bottom: 2px solid var(--cor-borda);
     font-size: 20px;
     font-weight: lighter;
     line-height: 2rem;
-    padding: 1rem 9rem;
+    padding: 1rem 1rem;
 }
 
-#segmentos-informacao__texto-agr {
-   border: none;
-}
-
-.segmentos-informacao__bloco {
+.segmentos__informacao-bloco {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.segmentos__descricao-texto {
-    font-weight: lighter;
-    color: var(--cor-texto-escuro);
-    font-size: 19px;
-    margin-bottom: 1rem;
-}
-
-.segmentos__descricao {
-    padding: 2.5rem 10rem;
-    padding-bottom: 0;
-}
-
-.segmentos__descricao-item {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 1rem;
-}
-
-.segmentos__descricao-img {
-    height: 60px;
 }
 
 .segmentos__aplicacoes {
@@ -96,13 +69,12 @@
     color: var(--cor-texto-claro);
     font-size: 20px;
     margin: 0 1.5rem;
-    text-align: center;
-    width: 300px;
+    white-space: nowrap;
 }
 
 .segmentos__aplicacoes-linha {
     border-top: 2px solid var(--cor-borda);
-    margin-top: 1.3rem;
+    margin-top: 0.55rem;
     width: 100%;
 }
 
