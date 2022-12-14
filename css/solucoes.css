@@ -1,0 +1,70 @@
+.solucoes__introducao {
+    display: flex;
+    flex-direction: column;
+}
+
+.solucoes__introducao-img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 300px;
+}
+
+.solucoes__introducao-texto {
+    color: var(--cor-texto-claro);
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 1.7rem;
+}
+
+.solucoes__introducao-ccor {
+    background-color: var(--cor-de-fundo);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.solucoes__catalogos-bloco {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.solucoes__catalogos-titulo {
+    color: var(--cor-texto-claro);
+    font-size: 20px;
+    margin: 0 1.5rem;
+    padding: 1.5rem 0 2rem 0;
+    white-space: nowrap;
+}
+
+.solucoes__catalogos-linha {
+    border-top: 2px solid var(--cor-borda);
+    margin-top: 2.05rem;
+    width: 100%;
+}
+
+.solucoes__catalgos-lista { 
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.solucoes__catalgos-item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.solucoes__catalgos-descricao {
+    text-align: center;
+    color: var(--cor-texto-claro);
+    text-transform: uppercase;
+    max-width: 250px;
+}
+
+.solucoes__catalgos-img {
+    max-height: 150px;
+    margin: 0.5rem;
+}

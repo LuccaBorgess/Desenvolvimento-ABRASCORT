@@ -8,7 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 1rem 10rem;
+    padding: 1rem 8rem;
     background-color: var(--cor-de-fundo);
 }
 
@@ -37,7 +37,7 @@
 }
 
 .segmentos__informacao {
-    padding: 20px 10rem;
+    padding: 20px auto;
 }
 
 .segmentos__informacao-texto {
@@ -56,10 +56,6 @@
     flex-wrap: wrap;
 }
 
-.segmentos__aplicacoes {
-    padding: 0 10rem;
-}
-
 .segmentos__aplicacoes-bloco {
     display: flex;
     flex-direction: row;
@@ -70,22 +66,17 @@
     color: var(--cor-texto-claro);
     font-size: 20px;
     margin: 0 1.5rem;
+    padding-top: 0.5rem;
     white-space: nowrap;
 }
 
 .segmentos__aplicacoes-linha {
     border-top: 2px solid var(--cor-borda);
-    margin-top: 0.55rem;
+    margin-top: 1.05rem;
     width: 100%;
 }
 
 .segmentos__aplicacoes-imagem {
-    margin: 2rem 0;
+    margin: 1rem 0;
     width: 100%;
-}
-
-@media screen and (min-width: 1441px) {
-    .segmentos__descricao-img {
-        height: 80px;
-    } 
 }
