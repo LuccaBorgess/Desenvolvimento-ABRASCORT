@@ -22,6 +22,13 @@
     padding-bottom: 2rem;
 }
 
+.solucoes__catalogos {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .solucoes__catalogos-bloco {
     display: flex;
     flex-direction: row;
@@ -42,7 +49,7 @@
     width: 100%;
 }
 
-.solucoes__catalgos-lista { 
+.solucoes__catalogos-lista { 
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -50,21 +57,101 @@
     justify-content: space-around;
 }
 
-.solucoes__catalgos-item {
+.solucoes__catalogos-item {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin: 2rem;
+    margin: 2rem 1rem;
 }
 
-.solucoes__catalgos-descricao {
+.solucoes__catalogos-descricao {
     text-align: center;
     color: var(--cor-texto-claro);
     text-transform: uppercase;
     max-width: 250px;
 }
 
-.solucoes__catalgos-img {
+.solucoes__catalogos-img {
     max-height: 150px;
     margin: 0.5rem;
+}
+
+.solucoes__catalogos-contato {
+    align-items: center;
+    border-left: 2px solid var(--cor-borda);
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    padding: 1rem 5rem;
+    margin-bottom: 2rem;
+}
+
+.solucoes__catalogos-chamada {
+    text-align: center;
+    color: var(--cor-texto-claro);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.texto__whatsapp {
+    font-weight: lighter;
+    font-size: 19px;
+}
+
+.solucoes__catalogos-whatsapp {
+    margin: 1rem 0;
+    max-width: 70px;
+}
+
+.solucoes__catalogos-botao {
+    font-weight: lighter;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--cor-fundo-botao-cinza);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.solucoes__catalogos-botao:hover {
+    background-color: var(--cor-fundo-botao-cinza-hover);
+}
+
+.solucoes__mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1439px) {
+    .solucoes__catalogos {
+        flex-direction: column;
+    }
+
+    .solucoes__catalogos-contato {
+        border-left: none;
+        width: 100%;
+        max-width: none;
+        padding: 2rem 0;
+    }
+
+    .solucoes__mobile {
+        display: block;
+    }
+
+    .solucoes__contato-bloco {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .solucoes__contato-titulo {
+        color: var(--cor-texto-claro);
+        font-size: 19px;
+        margin: 0 1.5rem;
+    }
+
+    .solucoes__contato-linha {
+        border-top: 2px solid var(--cor-borda);
+        margin-top: 0.4rem;
+        width: 100%;
+    }
 }
