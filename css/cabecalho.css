@@ -145,6 +145,14 @@
     display: flex;
 }
 
+.menudropdown:hover #solucoes {
+    display: flex;
+    flex-direction: column;
+    max-height: 500px;
+    flex-wrap: wrap;
+    width: 290px;
+}
+
 .cabecalho__menu-segmentos {
     align-items: center;
     border-right: 2px solid var(--cor-borda-escura);
@@ -169,6 +177,6 @@
     margin: 0.7rem;
 }
 
-.cabecalho__menu-solucoes:last-child {
+.cabecalho__menu-solucoes:nth-child(8n+9) {
     border: none;
 }
