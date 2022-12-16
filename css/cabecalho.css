@@ -136,11 +136,6 @@
     margin: 10.2rem;
 }
 
-.index {
-    top: -9.6rem;
-    margin: 10.9rem;
-}
-
 .cabecalho__menu-subitem:hover {
     color: var(--cor-texto-claro);
     transform: 0.5s ease-in-out;
