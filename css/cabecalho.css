@@ -148,7 +148,7 @@
 .menudropdown:hover #solucoes {
     display: flex;
     flex-direction: column;
-    max-height: 500px;
+    max-height: 450px;
     flex-wrap: wrap;
     width: 340px;
 }
@@ -177,6 +177,6 @@
     margin: 0.7rem;
 }
 
-.cabecalho__menu-solucoes:nth-child(8n+9) {
+.cabecalho__menu-solucoes:nth-child(8n+8) {
     border: none;
 }
